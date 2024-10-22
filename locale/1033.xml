@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<Modules>
 <Module Name="App_FrmCypWeld">
     <btn2DTo3D.Caption>二维转三维</btn2DTo3D.Caption>
     <btn2DTo3D.Hint>二维转三维</btn2DTo3D.Hint>
     <btnCheckCamFile.Caption>比对新旧加工图纸</btnCheckCamFile.Caption>
     <btnCheckCamFile.Hint>比对新旧加工图纸</btnCheckCamFile.Hint>
     <btnGenModel.Caption>生成工件</btnGenModel.Caption>
-    <btnGenModel.Caption>生成工件</btnGenModel.Caption>
-    <btnGenModel.Hint>生成工件</btnGenModel.Hint>
     <btnGenModel.Hint>生成工件</btnGenModel.Hint>
     <btnLineScanLocate.Caption>大线扫初定位</btnLineScanLocate.Caption>
     <btnLineScanLocate.Hint>大线扫初定位</btnLineScanLocate.Hint>
@@ -60,7 +59,7 @@
     <Title>分区连续焊接调试</Title>
 </Module>
 <Module Name="App_StepsEdit">
-    <pmMarkPt>标记点(&P)</pmMarkPt>
+    <pmMarkPt>标记点(&amp;P)</pmMarkPt>
     <SCallOEMPlc>调用专用过程</SCallOEMPlc>
     <SCallParallelSubPlc>调用自定义并行过程</SCallParallelSubPlc>
     <SClearAll>确定清空当前的过程吗？</SClearAll>
@@ -88,7 +87,9 @@
     <SLineScanHandEyeSetFailed>线扫相机手眼设置失败，请尝试重启软件或重新标定</SLineScanHandEyeSetFailed>
 </Module>
 <Module Name="Application">
-    <SLogserverNotExist>没有找到LogServer.exe，日志保存功能将无法使用。\n\n系统将运行在演示模式，重新安装软件可能可以解决此问题</SLogserverNotExist>
+    <SLogserverNotExist>没有找到LogServer.exe，日志保存功能将无法使用。
+
+系统将运行在演示模式，重新安装软件可能可以解决此问题</SLogserverNotExist>
     <SSeekEnd>寻位结束</SSeekEnd>
 </Module>
 <Module Name="Cam_Steps">
@@ -164,88 +165,5 @@
     <SHESideFailed>失败。</SHESideFailed>
     <SHESideHasOpenElsewhere>2. 若寻缝器软件已在其他窗口显示，请将其他窗口和本窗口关闭，然后重新打开。</SHESideHasOpenElsewhere>
     <SHESideMoveFailed>MoveWindow 移动界面失败。</SHESideMoveFailed>
-    <SHESideNoLineScanCam>无线扫相机连接。</SHESideNoLineScanCam>
-    <SHESideNoView>无法显示寻缝器视野。</SHESideNoView>
-    <SHESideNum>第</SHESideNum>
-    <SHESideSetParentFailed>SetParent 设置父窗体失败。</SHESideSetParentFailed>
-    <SHESideTimeout>外部相机视野窗口构造失败 或 等待超时，详见寻缝器日志。</SHESideTimeout>
-    <SHESideTryToOpen>次尝试打开外部相机视野中...</SHESideTryToOpen>
-    <SHighUnsaved>高视距标定结果未保存，是否保存？</SHighUnsaved>
-    <SIdle5>空闲</SIdle5>
-    <SInputDes>请输入新名称</SInputDes>
-    <SInvalidFileFormat>文件格式不正确！</SInvalidFileFormat>
-    <SItemNameInvalid1>名称非法，请重新输入</SItemNameInvalid1>
-    <SItemNameInvalid2>存在相同名称，禁止添加</SItemNameInvalid2>
-    <SLastMeasureAllAxis>上一次测定保存后，所有轴驱动器延时及系统延时\n</SLastMeasureAllAxis>
-    <SLineCameraIsObscured>当前姿态下线扫相机激光面被遮挡，请调整机器人姿态</SLineCameraIsObscured>
-    <SLineCameraIsObscuredHint>当前扫描姿态下线扫相机激光面可能被遮挡， 是否仍要继续？</SLineCameraIsObscuredHint>
-    <SLineScanBase>基座</SLineScanBase>
-    <SLineScanCalcFailed>计算手眼矩阵失败, 错误码为：</SLineScanCalcFailed>
-    <SLineScanCntUnmatchCam>相机坐标与机械臂坐标数据量不一致，请采集相机识别数据。</SLineScanCntUnmatchCam>
-    <SLineScanCntUnmatchEnd>相机坐标与机械臂坐标数据量不一致，请采集机械臂末端数据。</SLineScanCntUnmatchEnd>
-    <SLineScanConnected>已连接</SLineScanConnected>
-    <SLineScanGetBcsFailed>获取当前 BCS 坐标失败。</SLineScanGetBcsFailed>
-    <SLineScanIdtyFailed>获取线扫相机识别位置失败，请重新调整标定物位置。</SLineScanIdtyFailed>
-    <SLineScanJ1>J1 轴</SLineScanJ1>
-    <SLineScanMidium>中，仔细对准标志物中心 或 检查机械臂本体精度可能获得精度提升。</SLineScanMidium>
-    <SLineScanNothing>暂无线扫相机</SLineScanNothing>
-    <SLineScanSaved>已保存至寻缝器</SLineScanSaved>
-    <SLineScanSaveFailed>保存线扫相机手眼矩阵失败</SLineScanSaveFailed>
-    <SLineScanSaveSuccess>保存线扫相机手眼矩阵成功</SLineScanSaveSuccess>
-    <SLineScanTooClose>当前识别坐标与第 %d 个点过于接近（至少 50mm），请更换位置重新采集</SLineScanTooClose>
-    <SLineScanUnconnected>未连接</SLineScanUnconnected>
-    <SLineScanUnsaved>线扫相机标定结果未保存，是否保存？</SLineScanUnsaved>
-    <SLowUnsaved>低视距标定结果未保存，是否保存？</SLowUnsaved>
-    <SLSResidual>线扫相机各采样点残差：</SLSResidual>
-    <SManualGantryAssemblyMatrixCalibration>执行 手动龙门装配矩阵标定。</SManualGantryAssemblyMatrixCalibration>
-    <SManualTCPcalibration>执行 手动 TCP 标定。</SManualTCPcalibration>
-    <SManualZeroPointCalibration>执行 手动零点标定。</SManualZeroPointCalibration>
-    <SMedium5>中，选择标定零点可能获得精度提升 或 更换位置重新标定。</SMedium5>
-    <SMediumReCalib>中，手动标定零点可能获得精度提升 或 更换位置重新标定。</SMediumReCalib>
-    <SMemoryFreeSuccess>数据内存正常释放。</SMemoryFreeSuccess>
-    <SModifyDes>修改描述信息</SModifyDes>
-    <SMultiWeld>多层</SMultiWeld>
-    <SNewItem>增加新内容</SNewItem>
-    <SNoCorrespondingAxis>无对应轴</SNoCorrespondingAxis>
-    <SNoSupportHighVision>当前寻缝器暂不支持高视距。</SNoSupportHighVision>
-    <SNotSpportHVisionHandEyeAndZeroPointCalibration>暂不支持高视距下同时标定手眼矩阵和零点</SNotSpportHVisionHandEyeAndZeroPointCalibration>
-    <SOk>确定</SOk>
-    <SOK>确认</SOK>
-    <SOpenFile>打开文件</SOpenFile>
-    <SOther>其它</SOther>
-    <SPOS_DIFF>指令误差</SPOS_DIFF>
-    <SReadDynCalibData>选择机器人动力学辨识数据</SReadDynCalibData>
-    <SRepeat>5. 记录坐标，回到第 3 步，如此采集 %s 个点</SRepeat>
-    <SResultInit>------测定结果------\n</SResultInit>
-    <SResultsUnusable>计算结果不建议使用,延时误差在5ms内可用,请将驱动器延时调为与机械臂一致！</SResultsUnusable>
-    <SResultsUsable>计算结果可用</SResultsUsable>
-    <SRoughLocateFailed>初定位服务响应超时，无法获取定位结果</SRoughLocateFailed>
-    <SRoughLocateSuccessFmt>视觉初定位成功，定位结果：%s</SRoughLocateSuccessFmt>
-    <SSaveAutoTCPcalibration>保存 自动 TCP 标定。</SSaveAutoTCPcalibration>
-    <SSaveDualAxisPositionerCalibration>保存 双轴变位机标定。</SSaveDualAxisPositionerCalibration>
-    <SSaveManualGantryAssemblyMatrixCalibration>保存 手动龙门装配矩阵标定。</SSaveManualGantryAssemblyMatrixCalibration>
-    <SSaveManualTCPcalibration>保存 手动 TCP 标定。</SSaveManualTCPcalibration>
-    <SSaveManualTrackAssemblyMatrixCalibration>保存 手动地轨装配矩阵标定。</SSaveManualTrackAssemblyMatrixCalibration>
-    <SSaveManualZeroPointCalibration>保存 手动零点标定。</SSaveManualZeroPointCalibration>
-    <SSaveSingleAxisPositionerCalibration>保存 单轴变位机标定。</SSaveSingleAxisPositionerCalibration>
-    <SSaveToWeldTracker>保存至寻缝器</SSaveToWeldTracker>
-    <SSetStayPt>请正确配置停靠点位置！</SSetStayPt>
-    <SShiftHighFailed>切换高视距失败</SShiftHighFailed>
-    <SShiftLowFailed>切换低视距失败</SShiftLowFailed>
-    <SSingleAxisPositionerCalibration>执行 单轴变位机标定。</SSingleAxisPositionerCalibration>
-    <SSinOrder>变形后指令</SSinOrder>
-    <SSMAxis>轴</SSMAxis>
-    <SSuccessPCR>扫描成功</SSuccessPCR>
-    <SSysDelay>系统驱动延时时间为：</SSysDelay>
-    <STechParam>工艺</STechParam>
-    <STooClose2>当前采集点与第%d个点过于相近, 请变换机械臂和变位机位置重新采集</STooClose2>
-    <STooClosePt>当前采集点与第 %d 个点过于接近，请更换位置重新采集</STooClosePt>
-    <STrailCalibGantryTooClose>当前采集点的龙门坐标与第 %d 个点过于接近，请更换位置重新采集</STrailCalibGantryTooClose>
-    <STrailCalibMcsTooClose>当前采集点的机械臂坐标与第 %d 个点过于接近，请更换位置重新采集</STrailCalibMcsTooClose>
-    <SWeldDown>立向下焊</SWeldDown>
-    <SWeldPass>焊道</SWeldPass>
-    <SWorkbench>工位</SWorkbench>
-    <SWrapDownEnable>包角立向下</SWrapDownEnable>
-    <SWrapEnable>包角</SWrapEnable>
-    <UDOffset>上下偏移量</UDOffset>
-</Module>
+    </Module>
+</Modules>
