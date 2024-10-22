@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <root>
-    <string name="btn2DTo3D.Caption">二维转三维</string>
-    <string name="btn2DTo3D.Hint">二维转三维</string>
-    <string name="btnCheckCamFile.Caption">比对新旧加工图纸</string>
-    <string name="btnCheckCamFile.Hint">比对新旧加工图纸</string>
+    <str key="btn2DTo3D.Caption">二维转三维</str>
+    <str key="btn2DTo3D.Hint">二维转三维</str>
+    <str key="btnCheckCamFile.Caption">比对新旧加工图纸</str>
+    <str key="btnCheckCamFile.Hint">比对新旧加工图纸</str>
     <!-- 其他翻译项 -->
 </root>
