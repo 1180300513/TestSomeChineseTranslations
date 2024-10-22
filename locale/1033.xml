@@ -2,7 +2,7 @@
 <root>
     
 
-    <Module Name="App_FrmCypWeld">
+    <str Name="App_FrmCypWeld">
         
     
         <btn2DTo3D.Caption>二维转三维</btn2DTo3D.Caption>
@@ -86,10 +86,10 @@
         <SWeldtrackNotSupport>当前寻缝器不支持该功能</SWeldtrackNotSupport>
         
 
-    </Module>
+    </str>
     
 
-    <Module Name="App_frmTest">
+    <str Name="App_frmTest">
         
     
         <btnAddPt.Text>增加示教点</btnAddPt.Text>
@@ -173,10 +173,10 @@
         <Title>分区连续焊接调试</Title>
         
 
-    </Module>
+    </str>
     
 
-    <Module Name="App_StepsEdit">
+    <str Name="App_StepsEdit">
         
     
         <pmMarkPt>标记点(&amp;P)</pmMarkPt>
@@ -242,10 +242,10 @@
         <SUseDirectWeldProcess>当前过程为空，将使用直接起弧焊接过程</SUseDirectWeldProcess>
         
 
-    </Module>
+    </str>
     
 
-    <Module Name="App_Strs">
+    <str Name="App_Strs">
         
     
         <edtMsg.Text>TCP变化，请重新标定清枪剪丝位置</edtMsg.Text>
@@ -257,10 +257,10 @@
         <SLineScanHandEyeSetFailed>线扫相机手眼设置失败，请尝试重启软件或重新标定</SLineScanHandEyeSetFailed>
         
 
-    </Module>
+    </str>
     
 
-    <Module Name="Application">
+    <str Name="Application">
         
     
         <SLogserverNotExist>没有找到LogServer.exe，日志保存功能将无法使用。
@@ -271,19 +271,19 @@
         <SSeekEnd>寻位结束</SSeekEnd>
         
 
-    </Module>
+    </str>
     
 
-    <Module Name="Cam_Steps">
+    <str Name="Cam_Steps">
         
     
         <PLCStepStr8>寻位结束</PLCStepStr8>
         
 
-    </Module>
+    </str>
     
 
-    <Module Name="CamUI_Strs">
+    <str Name="CamUI_Strs">
         
     
         <RLOffset>左右偏移量</RLOffset>
@@ -493,7 +493,7 @@
         <SHESideMoveFailed>MoveWindow 移动界面失败。</SHESideMoveFailed>
         
     
-    </Module>
+    </str>
     
 
 </root>
