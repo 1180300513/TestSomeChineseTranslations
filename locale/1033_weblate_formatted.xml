@@ -2,7 +2,7 @@
 <root>
     
 
-    <str Name="App_FrmCypWeld">
+    <str key="App_FrmCypWeld">
         
     
         <btn2DTo3D.Caption>二维转三维</btn2DTo3D.Caption>
